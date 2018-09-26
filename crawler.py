@@ -7,12 +7,6 @@ import time
 import sys
 import csv
 
-# d['GDP_Final_NSA_YY_Country']=GDP_Final_NSA_YY_Country
-# i2=page_soup.find_all('td', {"data-col2"})
-# GDP_Final_NSA_YY_EventTime = i2[0].text
-# d['GDP_Final_NSA_YY_EventTime'] = GDP_Final_NSA_YY_EventTime
-# print(d)
-
 class Yahoo_Basic_Info(object):
     def __init__(self):
         pass
@@ -22,7 +16,6 @@ class Yahoo_Basic_Info(object):
 
     def action(self, date):
 
-          # my_url='https://finance.yahoo.com/calendar/economic?from=2017-09-20'
         my_url = 'https://finance.yahoo.com/calendar/economic?from=' + date
         print(my_url)
 
